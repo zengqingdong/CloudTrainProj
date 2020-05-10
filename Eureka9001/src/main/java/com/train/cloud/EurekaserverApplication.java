@@ -15,6 +15,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class EurekaserverApplication {
 
     public static void main(String[] args) {
+        System.out.println("branch1");
         SpringApplication.run(EurekaserverApplication.class, args);
     }
 }
